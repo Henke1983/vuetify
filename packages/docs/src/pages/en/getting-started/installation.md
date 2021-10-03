@@ -26,9 +26,9 @@ Installation of the alpha is limited to new cli projects at this time and intend
 
 ### vue-cli
 
-In order for the installation to proceed correctly, **vue-cli 4.0** is required. Further instructions are available at [vue-cli](https://github.com/vuejs/vue-cli).
+In order for the installation to proceed correctly, **vue-cli 5.0.0-beta4** is required. Further instructions are available at [vue-cli](https://github.com/vuejs/vue-cli).
 
-Once installed, generate a project with the following command using the **vue-cli 4.0**:
+Once installed, generate a project with the following command using the **vue-cli 5.0.0-beta-4**:
 
 ```bash
 vue create my-app
@@ -61,6 +61,16 @@ Once prompted, choose `v3 (alpha)`:
   Prototype (rapid development)
 > V3 (alpha)
   Configure (advanced)
+```
+
+Once installed and configured, you need to upgrade sass to release 1.33 do this: 
+```bash
+npm install sass@1.33
+```
+
+Now you can start and test the application 
+```bash
+npm run serve
 ```
 
 ### Vite
